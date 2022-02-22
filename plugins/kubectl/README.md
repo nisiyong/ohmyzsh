@@ -115,6 +115,11 @@ plugins=(... kubectl)
 | keds    | `kubectl edit daemonset`            | Edit DaemonSets from the default editor                                                          |
 | kdds    | `kubectl describe daemonset`        | Describe all DaemonSets in detail                                                                |
 | kdelds  | `kubectl delete daemonset`          | Delete all DaemonSets matching passed argument                                                   |
+|         |                                     | **Job management**                                                                           |
+| kgj     | `kubectl get job`                   | List all Jobs in ps output format                                                            |
+| kej     | `kubectl edit job`                  | Edit Job from the default editor                                                             |
+| kdj     | `kubectl describe job`              | Describe a Job in details                                                                    |
+| kdelj   | `kubectl delete job`                | Delete the Job                                                                               |
 |         |                                     | **CronJob management**                                                                           |
 | kgcj    | `kubectl get cronjob`               | List all CronJobs in ps output format                                                            |
 | kecj    | `kubectl edit cronjob`              | Edit CronJob from the default editor                                                             |

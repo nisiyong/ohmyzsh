@@ -172,6 +172,12 @@ alias keds='kubectl edit daemonset'
 alias kdds='kubectl describe daemonset'
 alias kdelds='kubectl delete daemonset'
 
+# Job management.
+alias kgj='kubectl get job'
+alias kej='kubectl edit job'
+alias kdj='kubectl describe job'
+alias kdelj='kubectl delete job'
+
 # CronJob management.
 alias kgcj='kubectl get cronjob'
 alias kecj='kubectl edit cronjob'
